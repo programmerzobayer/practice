@@ -1,0 +1,109 @@
+
+.App{
+    margin: auto;
+    width: 90%;
+}
+.signIn{
+    width: 500px ;
+    height: 550px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.421);
+}
+.Title{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+    color: #ffff;
+    text-shadow: 1px 1px 1px #047634;
+}
+form{
+    text-align: center;
+  margin-top: 40px;
+}
+input{
+    width: 92%;
+    font-size:  20px !important;
+    padding: 12px 20px;
+    border: 1px solid #2dc56c;
+    border-radius: 8px;
+    margin: 8px 0 !important;
+}
+input:focus{
+    outline: 1px solid blue;
+}
+.buttons{
+    width: 90%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+.buttons button{
+    font-size: 20px;
+    padding: 10px 24px ;
+    border-radius: 30px;
+    border: none;
+}
+.buttons button:first-child{
+    background: rgb(61, 141, 253);
+    color: white;
+}
+.underline{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+}
+.rap{
+    position: relative;
+}
+.sign{
+    position: absolute;
+    top: -12px;
+    left: 40%;
+    background-color: white;
+    padding: 0 20px;
+    color: #2dc56c;
+}
+
+@media(max-width:746px){
+    .App{
+        margin: auto;
+        width: 94%;
+    }
+    .signIn{
+        width: 500px !important ;
+        height: 520px;
+        background-color: white;
+        display: inline-block;
+        border-radius: 10px;
+        box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.421);
+    }
+    .Title{
+   font-size: 18px;
+    }
+    input{
+        padding: 9px 22px;
+        border-radius: 30px;
+        font-size: 16px;
+        margin: 8px 0 !important;
+    }
+    .buttons button{
+        font-size: 17px;
+        padding: 8px 18px ;
+        border-radius: 30px;
+        border: none;
+    } 
+    .sign{
+    position: absolute;
+    font-size: 16px;
+    top: -10px;
+    left: 38%;
+    background-color: white;
+    padding: 0 20px;
+    color: #2dc56c;
+}
+}

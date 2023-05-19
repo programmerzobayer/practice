@@ -1,0 +1,26 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 0;
+}
+.product-details h5{
+  color: blue;
+  font-weight: 400;
+}
+.product-image img{
+    margin-right: 10px;
+}
+.product button{
+    background: rgb(221, 131, 57);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 4px;
+    width: 140px;
+    height: 30px;
+    color: rgb(70, 56, 56);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+.product button:hover{
+    background: rgb(231, 113, 16);
+}

@@ -1,0 +1,23 @@
+
+.shop{
+    display: flex;
+}
+.shop-content{
+    width: 70%;
+    margin-left: 40px;
+    border-right: 1px solid #ddd;
+}
+.cart-content{
+    width: 30%;
+    background: rgb(241, 241, 241);
+    padding: 0 20px ;
+    position: relative;
+}
+.cart{
+    background-color: salmon;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+   position: sticky;
+   top: 20px;
+}
